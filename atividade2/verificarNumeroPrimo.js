@@ -1,4 +1,4 @@
-function verificarNumPrimo(n) {
+function verificarNumeroPrimo(n) {
   if (n <= 1) {
     return false;
   }
@@ -8,19 +8,20 @@ function verificarNumPrimo(n) {
   }
 
   for (let i = 3; i < n; i += 2) {
-    if (n % 1 == 0) {
+    if (n % i == 0) {
       return false;
     }
   }
   return true;
 }
-console.log(verificarNumPrimo(0));
-console.log(verificarNumPrimo(1));
-console.log(verificarNumPrimo(2));
-console.log(verificarNumPrimo(3));
-console.log(verificarNumPrimo(7));
-console.log(verificarNumPrimo(83));
-console.log(verificarNumPrimo(100));
-console.log(verificarNumPrimo(991));
-console.log(verificarNumPrimo(104729));
-console.log(verificarNumPrimo(143489077777));
+console.log(verificarNumeroPrimo(0));
+console.log(verificarNumeroPrimo(1));
+console.log(verificarNumeroPrimo(2));
+console.log(verificarNumeroPrimo(3));
+console.log(verificarNumeroPrimo(7));
+console.log(verificarNumeroPrimo(83));
+console.log(verificarNumeroPrimo(100));
+console.log(verificarNumeroPrimo(991));
+console.log(verificarNumeroPrimo(104729));
+console.log(verificarNumeroPrimo(143489077777));
+
