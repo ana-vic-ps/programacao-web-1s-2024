@@ -1,0 +1,14 @@
+{
+  "name": "programacao-web-1s-2024",
+  "version": "1.0.0",
+  "description": "Repositório destinado às atividades da disciplina programação para web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
